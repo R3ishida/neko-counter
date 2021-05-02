@@ -1,0 +1,128 @@
+body {
+    width: 750px;
+    height: 700px;
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','ヒラギノ角ゴシック','Hiragino Sans','Arial',sans-serif;
+}
+
+hr {
+    margin-top: -10px;
+    margin-bottom: 30px;
+    width: 550px;
+}
+
+th {
+    width: 150px;
+    height: 31px;
+    font-size: 18px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+
+td {
+    border: grey solid 2px;
+    width: 28px;
+    text-align: center;
+    color: grey;
+    background-color: white;
+}
+
+td:hover {
+    background-color: rgb(226, 224, 224);
+    cursor: pointer;
+}
+
+.row-space {
+    height: 20px;
+    background-color: black;
+}
+
+
+
+main {
+    z-index: 100;
+    position: relative;
+}
+
+img {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.title {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+
+
+.delete:hover {
+    cursor: pointer;
+}
+
+.delete {
+    font-size: 15px;
+    display: inline-block;
+    width: 100px;
+    margin-left: 90px;
+    height: auto;
+    background-color: rgb(255, 106, 106);
+    text-align: center;
+    color: white;
+}
+
+.addition {
+    width: auto;
+    height: 140px;
+    padding: 10px;
+    background-color: rgba(190, 190, 190, 0.226);
+    border-radius: 15px;
+}
+.cp_iptxt {
+	position: relative;
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.cp_iptxt input[type='text'] {
+    background-color: rgba(255, 255, 255, 0.7);
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: none;
+	border-bottom: 2px solid #1b2538;
+}
+.ef input[type='text']:focus {
+	border-bottom: 2px solid  rgba(190, 190, 190, 0.226);
+	outline: none;
+}
+span {
+    height: 10px;
+    display: block;
+}
+
+.button {
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+    width: 100px;
+    height: auto;
+    background-color: grey;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
